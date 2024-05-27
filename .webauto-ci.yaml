@@ -1,6 +1,13 @@
 version: 2
 
 artifacts:
+artifacts:
+  - name: main
+    build:
+      type: tier4/universe/main/amd64/v1
+      ml_packages:
+        - name: centerpoint_tiny
+          release: demo/mlmodel/v0.0.1
   - name: main
     build:
       type: tier4/universe/main/amd64/v1
