@@ -1,7 +1,6 @@
 version: 2
 
 artifacts:
-artifacts:
   - name: main
     build:
       type: tier4/universe/main/amd64/v1
