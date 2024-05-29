@@ -5,8 +5,8 @@ artifacts:
     build:
       type: tier4/universe/main/amd64/v1
       ml_packages:
-        - name: centerpoint_tiny2
-          release: demo/mlmodel/v0.0.2
+        - name: centerpoint_tiny
+          release: demo/mlmodel/v0.0.3
 
 simulations:
   - name: perception
