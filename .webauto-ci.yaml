@@ -95,11 +95,12 @@ simulations:
 
 release:
   components:
-    - name: planning
+    - name: autoware
       deployment:
-        type: container
+        type: rootfs
         artifact: main
-    - name: perception
-      deployment:
-        type: container
-        artifact: main
+      alternative_deployments:
+        - type: installer
+          artifact: main
+        - type: container
+          artifact: main
